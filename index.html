@@ -16,6 +16,7 @@
             height: 5000px;
         }
         </style>
+        <script src="script.js"></script>
 </head>
 <body>
     <div class="container">
@@ -51,6 +52,55 @@
     <br>
 
     <p>============JS WHERE TO==============</p>
+    <h2>Demo External JavaScript</h2>
+     <p id="demo4">A paragraph</p>
+
+     <button type="button" onclick="myFunction()">Try it</button><br><br>
+
+     <p>===========Js Output===============</p>
+     <h3>Using innerHTML</h3>
+     
+     <p>5 + 6 = <p id="demo5"></p> <script>
+        document.getElementById("demo5").innerHTML = 5+6;
+     </script></p>
+
+     <h3>Using doccument.write ()</h3>
+     <script>document.write(5+6)</script> <br>
+     <button type="button" onclick="document.write(5+6)">Click Me</button>
+
+     <h3>Using window.alert()</h3>
+     <!-- <script>window.alert(5+6)</script>
+     <script>alert(8+8)</script> -->
+<br>
+     <h3>Using console.log</h3>
+     <script>console.log(9+9);</script>
+
+     <h3>The window.print() Method</h3>
+     <button onclick="window.print()">Print this page</button>
+     <br><br>
+     <h1>==========JavaScript Statements===========</h1>
+
+     <h2>JavaScript Statements</h2>
+
+     <p>JavaScript statements are separated by semicolons.</p>
+     
+     <p id="demo6"></p>
+     
+     <script>
+     let a, b, c;
+     a = 5;
+     b = 6;
+     c = a + b;
+     document.getElementById("demo6").innerHTML = c;
+     </script>
+    
+     
+
+
+
+     
+
+     
 
 
 
